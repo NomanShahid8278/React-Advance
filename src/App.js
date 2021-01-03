@@ -1,10 +1,19 @@
-import React from 'react'
+import React from "react";
+import ErrorExample from "./practice/1-useState/1-error-example";
+import UseStateBasics from "./practice/1-useState/2-useState-basics";
+import UseStateArray from "./practice/1-useState/3-useState-array";
+import UseStateObject from "./practice/1-useState/4-useState-object";
+import UseStateCounter from "./practice/1-useState/5-useState-counter";
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <ErrorExample />
+      <UseStateBasics />
+      <UseStateArray />
+      <UseStateObject />
+      <UseStateCounter />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
