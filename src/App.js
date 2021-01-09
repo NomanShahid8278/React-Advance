@@ -4,8 +4,9 @@ import UseStateBasics from "./practice/1-useState/2-useState-basics";
 import UseStateArray from "./practice/1-useState/3-useState-array";
 import UseStateObject from "./practice/1-useState/4-useState-object";
 import UseStateCounter from "./practice/1-useState/5-useState-counter";
-import Project from './practice/1-useState/Project/Project'
-import UseEffectBasics from './practice/2-useEffect/1-useEffect-basics'
+import Project from "./practice/1-useState/Project/Project";
+import UseEffectBasics from "./practice/2-useEffect/1-useEffect-basics";
+import UseEffectCleanup from "./practice/2-useEffect/2-useEffect-cleanup";
 function App() {
   return (
     <div className="container">
@@ -14,8 +15,9 @@ function App() {
       <UseStateArray />
       <UseStateObject />
       <UseStateCounter />
-      <Project/>
-      <UseEffectBasics/>
+      <Project />
+      <UseEffectBasics />
+      <UseEffectCleanup />
     </div>
   );
 }
