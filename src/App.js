@@ -7,6 +7,7 @@ import UseStateCounter from "./practice/1-useState/5-useState-counter";
 import Project from "./practice/1-useState/Project/Project";
 import UseEffectBasics from "./practice/2-useEffect/1-useEffect-basics";
 import UseEffectCleanup from "./practice/2-useEffect/2-useEffect-cleanup";
+import UseEffectFetchData from "./practice/2-useEffect/3-useEffect-fetch-data"
 function App() {
   return (
     <div className="container">
@@ -18,6 +19,7 @@ function App() {
       <Project />
       <UseEffectBasics />
       <UseEffectCleanup />
+      <UseEffectFetchData/>
     </div>
   );
 }
