@@ -9,7 +9,8 @@ import UseEffectBasics from "./practice/2-useEffect/1-useEffect-basics";
 import UseEffectCleanup from "./practice/2-useEffect/2-useEffect-cleanup";
 import UseEffectFetchData from "./practice/2-useEffect/3-useEffect-fetch-data";
 import MultipleReturns from "./practice/3-conditional-rendering/1-multiple-returns";
-
+import ShortCircuit from './practice/3-conditional-rendering/2-short-circuit'
+import ShowHide from './practice/3-conditional-rendering/3-show-hide'
 function App() {
   return (
     <div className="container">
@@ -23,6 +24,8 @@ function App() {
       <UseEffectCleanup />
       <UseEffectFetchData />
       <MultipleReturns />
+      <ShortCircuit/>
+      <ShowHide/>
     </div>
   );
 }
