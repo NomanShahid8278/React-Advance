@@ -11,7 +11,8 @@ import MultipleReturns from "./practice/3-conditional-rendering/1-multiple-retur
 import ShortCircuit from "./practice/3-conditional-rendering/2-short-circuit";
 import ShowHide from "./practice/3-conditional-rendering/3-show-hide";
 import ControlledInputs from "./practice/4-forms/1-controlled-inputs";
-import MultipleInputs from './practice/4-forms/2-multiple-inputs'
+import MultipleInputs from "./practice/4-forms/2-multiple-inputs";
+import UseRefBasics from "./practice/5-useRef/1-useRef-basics";
 function App() {
   return (
     <div className="container">
@@ -27,7 +28,8 @@ function App() {
       <ShortCircuit />
       <ShowHide />
       <ControlledInputs />
-      <MultipleInputs/>
+      <MultipleInputs />
+      <UseRefBasics />
     </div>
   );
 }
