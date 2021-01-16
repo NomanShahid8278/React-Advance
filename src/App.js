@@ -13,10 +13,11 @@ import ShowHide from "./practice/3-conditional-rendering/3-show-hide";
 import ControlledInputs from "./practice/4-forms/1-controlled-inputs";
 import MultipleInputs from "./practice/4-forms/2-multiple-inputs";
 import UseRefBasics from "./practice/5-useRef/1-useRef-basics";
+import UseReducer from "./practice/6-useReducer";
 function App() {
   return (
     <div className="container">
-      <ErrorExample />
+      {/* <ErrorExample />
       <UseStateBasics />
       <UseStateArray />
       <UseStateObject />
@@ -29,7 +30,8 @@ function App() {
       <ShowHide />
       <ControlledInputs />
       <MultipleInputs />
-      <UseRefBasics />
+      <UseRefBasics /> */}
+      <UseReducer />
     </div>
   );
 }
