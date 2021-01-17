@@ -15,6 +15,7 @@ import MultipleInputs from "./practice/4-forms/2-multiple-inputs";
 import UseRefBasics from "./practice/5-useRef/1-useRef-basics";
 import UseReducer from "./practice/6-useReducer";
 import PropDrilling from "./practice/7-prop-drilling/1-prop-drilling";
+import ContextAPI from "./practice/8-useContext/1-context-api";
 function App() {
   return (
     <div className="container">
@@ -34,6 +35,7 @@ function App() {
       <UseRefBasics />
       <UseReducer />
       <PropDrilling />
+      <ContextAPI />
     </div>
   );
 }
