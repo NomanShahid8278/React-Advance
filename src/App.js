@@ -18,10 +18,11 @@ import PropDrilling from "./practice/7-prop-drilling/1-prop-drilling";
 import ContextAPI from "./practice/8-useContext/1-context-api";
 import Example from "./practice/9-custom-hooks/1-fetch-example";
 import PropTypes from "./practice/10-prop-types/index";
+import ReactRouterSetup from "./practice/11-react-router";
 function App() {
   return (
     <div className="container">
-      <ErrorExample />
+      {/* <ErrorExample />
       <UseStateBasics />
       <UseStateArray />
       <UseStateObject />
@@ -39,7 +40,8 @@ function App() {
       <PropDrilling />
       <ContextAPI />
       <Example />
-      <PropTypes />
+      <PropTypes /> */}
+      <ReactRouterSetup />
     </div>
   );
 }
